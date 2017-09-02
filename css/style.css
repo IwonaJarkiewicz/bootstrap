@@ -35,3 +35,13 @@ h2 {
     height: 100px;
     background-color: green;
 }
+/**karuzela rozciąganie obrazka*/
+
+#carousel-example-generic .carousel-inner .item img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    
+}
